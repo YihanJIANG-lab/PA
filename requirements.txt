@@ -1,0 +1,15 @@
+# Retraining pipeline (retraining/) and offline table scripts (scripts/)
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.4.0
+econml>=0.14.0
+threadpoolctl>=3.0.0
+tqdm>=4.66.0
+matplotlib>=3.8.0
+
+# Optional: only needed for retraining/prepare_aug_embeddings.py
+# (exact 768-dim embedding reconstruction; the pipeline otherwise falls back
+# to the saved PCA-50 features automatically)
+# sentence-transformers>=2.7.0
+# torch>=2.0.0

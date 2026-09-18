@@ -1,0 +1,4 @@
+model,t5_queries,parsed,responses_differ,share
+gpt-5.5,1100,1100,1083,0.9845
+deepseek-v4-pro,1100,1100,1065,0.9682
+claude-sonnet-4.6,1100,1100,1042,0.9473
